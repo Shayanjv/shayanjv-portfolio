@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shayana J V | Full Stack Developer & AI Engineer</title>
+  <meta name="description"
+    content="Portfolio of Shayana J V — MCA graduate specializing in Full Stack Development, AI-driven applications, FastAPI, React.js, and Computer Vision." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <!-- ======================== NAVBAR ======================== -->
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-logo">
+      <span class="logo-bracket">&lt;</span>Shayana<span class="logo-dot">.</span>dev<span
+        class="logo-bracket">/&gt;</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#achievements" class="nav-link">Achievements</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Hire Me</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ======================== HERO ======================== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting reveal">Hello, I'm</p>
+      <h1 class="hero-name reveal">Shayana <span class="gradient-text">J V</span></h1>
+      <div class="hero-title-wrapper reveal">
+        <span class="hero-title-static">I build </span>
+        <span class="hero-title-typed" id="typedText"></span>
+        <span class="typed-cursor">|</span>
+      </div>
+      <p class="hero-desc reveal">
+        MCA graduate specializing in Full Stack Development &amp; AI-driven applications.
+        Crafting scalable, real-time systems with modern technologies.
+      </p>
+      <div class="hero-btns reveal">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-rocket"></i> View Projects
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fas fa-envelope"></i> Get In Touch
+        </a>
+      </div>
+      <div class="hero-socials reveal">
+        <a href="https://github.com/Shayanjv" target="_blank" class="social-link" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/shayanjv/" target="_blank" class="social-link" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:jvshayan1@gmail.com" class="social-link" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </a>
+  </section>
+
+  <!-- ======================== ABOUT ======================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-num">01.</span> About Me
+      </h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm <strong>Shayana J V</strong>, an MCA graduate from <strong>CMR Institute of Technology,
+              Bangalore</strong>,
+            specializing in <span class="highlight">Full Stack Development</span> and
+            <span class="highlight">AI-driven applications</span>.
+          </p>
+          <p>
+            I'm passionate about architecting <strong>high-performance backends</strong> and delivering
+            seamless user experiences through modern web frameworks and containerized deployments.
+            My expertise spans from building scalable real-time systems to implementing computer vision
+            solutions with cutting-edge accuracy.
+          </p>
+          <p>
+            When I'm not coding, you'll find me leading student communities, participating in hackathons,
+            or exploring the latest advancements in AI and cybersecurity.
+          </p>
+        </div>
+        <div class="about-cards reveal">
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-code"></i></div>
+            <div class="stat-number">2+</div>
+            <div class="stat-label">Major Projects</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-trophy"></i></div>
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Hackathons</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="stat-number">9.03</div>
+            <div class="stat-label">MCA GPA</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-users"></i></div>
+            <div class="stat-number">2</div>
+            <div class="stat-label">Leadership Roles</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== SKILLS ======================== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-num">02.</span> Skills & Technologies
+      </h2>
+      <div class="skills-grid">
+        <!-- Languages -->
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <i class="fas fa-terminal"></i>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+          </div>
+        </div>
+        <!-- Frameworks -->
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <i class="fas fa-layer-group"></i>
+            <h3>Frameworks & Libraries</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">React 18</span>
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Tailwind CSS</span>
+            <span class="skill-tag">SQLAlchemy</span>
+          </div>
+        </div>
+        <!-- Databases -->
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <i class="fas fa-database"></i>
+            <h3>Databases</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">pgvector</span>
+            <span class="skill-tag">Redis</span>
+          </div>
+        </div>
+        <!-- AI & CV -->
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <i class="fas fa-brain"></i>
+            <h3>AI & Computer Vision</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">YOLOv8</span>
+            <span class="skill-tag">OpenCV</span>
+            <span class="skill-tag">Face Recognition</span>
+            <span class="skill-tag">PyTorch</span>
+          </div>
+        </div>
+        <!-- DevOps -->
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <i class="fas fa-server"></i>
+            <h3>DevOps & Deployment</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Docker Compose</span>
+            <span class="skill-tag">CI/CD</span>
+            <span class="skill-tag">Containerization</span>
+          </div>
+        </div>
+        <!-- Tools -->
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <i class="fas fa-tools"></i>
+            <h3>Tools & Platforms</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git/GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Postman</span>
+            <span class="skill-tag">Vercel</span>
+            <span class="skill-tag">Hugging Face</span>
+            <span class="skill-tag">Supabase</span>
+            <span class="skill-tag">MinIO</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== EDUCATION ======================== -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-num">03.</span> Education
+      </h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-date">2024 – 2026</div>
+            <h3>Master of Computer Applications (MCA)</h3>
+            <p class="timeline-school"><i class="fas fa-university"></i> CMR Institute of Technology, Bangalore</p>
+            <div class="timeline-grade"><span class="grade-badge">GPA: 9.03 / 10</span></div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-date">2021 – 2024</div>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p class="timeline-school"><i class="fas fa-university"></i> Kuvempu University, Karnataka</p>
+            <div class="timeline-grade"><span class="grade-badge">GPA: 7.7 / 10</span></div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-date">2019 – 2021</div>
+            <h3>12th Standard (PUC)</h3>
+            <p class="timeline-school"><i class="fas fa-school"></i> Karnataka Board</p>
+            <div class="timeline-grade"><span class="grade-badge">72.33%</span></div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-date">2017 – 2019</div>
+            <h3>10th Standard (SSLC)</h3>
+            <p class="timeline-school"><i class="fas fa-school"></i> Karnataka Board</p>
+            <div class="timeline-grade"><span class="grade-badge">84.13%</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== PROJECTS ======================== -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-num">04.</span> Featured Projects
+      </h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card project-card-featured reveal">
+          <div class="project-card-header">
+            <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Shayanjv" target="_blank" aria-label="GitHub"><i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">InvigilAI — Real-Time Exam Proctoring Platform</h3>
+          <span class="project-date">Dec 2024 – Feb 2026</span>
+          <p class="project-desc">
+            A production-grade, real-time AI-powered online examination proctoring system designed for
+            university internal assessments. Built as a <strong>three-tier Dockerized architecture</strong> —
+            Student Portal (React + Vite), Admin Dashboard (React + TypeScript), and FastAPI Backend —
+            with PostgreSQL, Redis, and MinIO, all orchestrated via Docker Compose.
+          </p>
+          <ul class="project-features">
+            <li><i class="fas fa-crosshairs"></i> <strong>Concurrent AI Detection Engine</strong> — 3 models run in
+              parallel via ThreadPoolExecutor: YOLOv8 (phone &amp; person detection), MediaPipe Face Mesh (eye tracking,
+              head posture, mouth movement), and MediaPipe Hands — achieving <strong>95%+ accuracy</strong> at
+              <strong>&lt;500ms latency</strong> with configurable sensitivity thresholds
+            </li>
+            <li><i class="fas fa-video"></i> <strong>Real-Time WebSocket Pipeline</strong> — JWT-authenticated WebSocket
+              connections stream base64 video frames at 10–15 FPS; server decodes, runs AI inference, and pushes
+              violation alerts back instantly with event-type classification</li>
+            <li><i class="fas fa-fingerprint"></i> <strong>Dual Authentication &amp; Security</strong> — Password + Face
+              Recognition biometric login, JWT Bearer tokens, SEB (Safe Exam Browser) hash validation, CORS restriction,
+              per-exam IP range enforcement, and role-based access control</li>
+            <li><i class="fas fa-chart-line"></i> <strong>Compliance Scoring &amp; Auto-Grading</strong> — Weighted
+              compliance algorithm with noise filtering (&gt;10 occurrences threshold), face detection rate tracking,
+              and automatic MCQ grading with per-question marks allocation</li>
+            <li><i class="fas fa-columns"></i> <strong>Admin Dashboard (12+ Components)</strong> — Live student
+              monitoring table, evidence vault with MinIO screenshots, exam creator with MCQ/short-answer, AI
+              sensitivity settings, real-time stats bar, and per-student compliance modal</li>
+            <li><i class="fas fa-plug"></i> <strong>LTI 1.3 LMS Integration</strong> — Hybrid deployment as Stand-alone
+              or LMS Plugin for Moodle, Canvas &amp; Blackboard with auto-provisioning of students and gradebook sync
+            </li>
+          </ul>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>React.js</span>
+            <span>TypeScript</span>
+            <span>YOLOv8</span>
+            <span>MediaPipe</span>
+            <span>WebSocket</span>
+            <span>PostgreSQL</span>
+            <span>Redis</span>
+            <span>MinIO</span>
+            <span>Docker</span>
+          </div>
+          <a href="https://drive.google.com/file/d/1KM8vU1EDr1rj8dVSdPKflH1MktitDadB/view?usp=sharing" id="reportLink"
+            target="_blank" class="project-report-btn">
+            <i class="fas fa-file-alt"></i> View Detailed Project Report
+          </a>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card project-card-featured reveal">
+          <div class="project-card-header">
+            <div class="project-icon"><i class="fas fa-bug"></i></div>
+            <div class="project-links">
+              <a href="https://fixforge.vercel.app" target="_blank" aria-label="Live Site"><i
+                  class="fas fa-external-link-alt"></i></a>
+              <a href="https://github.com/Shayanjv" target="_blank" aria-label="GitHub"><i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">FixForge — AI-Powered Collaborative Bug Tracking & Resolution Platform</h3>
+          <span class="project-date">Aug 2024</span>
+          <p class="project-desc">
+            A full-stack intelligent bug tracking system designed for speed and collaboration.
+            The <strong>React + Vite</strong> frontend is deployed on Vercel for global CDN performance,
+            while the stateless <strong>FastAPI</strong> backend runs on <strong>Hugging Face Spaces</strong>
+            for scalable AI processing. Data is managed via <strong>Supabase (PostgreSQL)</strong> with
+            Row-Level Security (RLS) for robust access control.
+          </p>
+          <ul class="project-features">
+            <li><i class="fas fa-robot"></i> <strong>AI-Driven Solutions</strong> — Uses <strong>Gemini 2.5 Flash
+                API</strong>
+              to auto-generate technical fixes and patches for reported bugs instantly</li>
+            <li><i class="fas fa-search"></i> <strong>Semantic Search</strong> — <strong>Sentence Transformers</strong>
+              detect duplicate issues via semantic similarity, reducing redundant reports</li>
+            <li><i class="fas fa-database"></i> <strong>Supabase Architecture</strong> — Managed PostgreSQL with
+              real-time subscriptions and RLS enabled for secure, scalable data handling</li>
+            <li><i class="fas fa-code"></i> <strong>Developer-First UX</strong> — Integrated <strong>Monaco
+                Editor</strong>
+              and TailwindCSS for a premium coding experience within the bug tracker</li>
+            <li><i class="fas fa-cloud"></i> <strong>Serverless Deployment</strong> — Stateless backend on Hugging Face
+              Spaces + Vercel frontend ensures 99.9% uptime and auto-scaling</li>
+          </ul>
+          <div class="project-tech">
+            <span>React.js</span>
+            <span>Vite</span>
+            <span>Tailwind CSS</span>
+            <span>Monaco Editor</span>
+            <span>FastAPI</span>
+            <span>Gemini 2.5 Flash</span>
+            <span>Sentence Transformers</span>
+            <span>Supabase</span>
+            <span>PostgreSQL</span>
+            <span>RLS</span>
+            <span>Hugging Face Spaces</span>
+            <span>Vercel</span>
+          </div>
+          <div class="project-card-actions">
+            <a href="https://fixforge.vercel.app" target="_blank" class="project-live-btn">
+              <i class="fas fa-globe"></i> View Live
+            </a>
+            <a href="https://drive.google.com/file/d/1KnaICOIKuRvCiclrA5u9Ai31pYwuVOcq/view?usp=sharing" target="_blank"
+              class="project-report-btn">
+              <i class="fas fa-file-alt"></i> View Project Report
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== ACHIEVEMENTS ======================== -->
+  <section class="section" id="achievements">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-num">05.</span> Achievements & Leadership
+      </h2>
+      <div class="achievements-grid">
+        <div class="achievement-card reveal">
+          <div class="achievement-icon trophy"><i class="fas fa-trophy"></i></div>
+          <h3>Hackathon Winner</h3>
+          <p>STACKATHON (AI in Commerce) — CMRIT & Unicornready Technologies</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon showcase"><i class="fas fa-medal"></i></div>
+          <h3>Major Project Exhibition Winner</h3>
+          <p>Secured 2nd Prize for <strong>FixForge</strong> — Automated Bug Tracking System</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon showcase"><i class="fas fa-lightbulb"></i></div>
+          <h3>Think Build Showcase</h3>
+          <p>Showcased AI Tutor for Enhanced Learning at CMRIT, 2025</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon hackathon"><i class="fas fa-code-branch"></i></div>
+          <h3>ByteBattles 1.0</h3>
+          <p>Competed in multi-round DSA hackathon challenges, 2025</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon community"><i class="fas fa-shield-alt"></i></div>
+          <h3>Community Engagement</h3>
+          <p>SecurityBoat Cybersecurity Meetup & Nokia Knowledge Graphs for GenAI Meetup, 2025</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon leader"><i class="fas fa-users-cog"></i></div>
+          <h3>Student Coordinator</h3>
+          <p>Protocol Club (2024–2025) — Certificate of Appreciation for leadership</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon leader"><i class="fas fa-microphone-alt"></i></div>
+          <h3>Vice President</h3>
+          <p>Communication Club — Group discussions, debates, and public speaking events</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== CONTACT ======================== -->
+  <section class="section section-alt" id="contact">
+    <div class="container contact-container">
+      <h2 class="section-title reveal">
+        <span class="section-num">06.</span> Get In Touch
+      </h2>
+      <p class="contact-desc reveal">
+        I'm currently open to new opportunities and collaborations. Whether you have a project
+        in mind, want to discuss tech, or just want to say hi — my inbox is always open!
+      </p>
+      <div class="contact-cards reveal">
+        <a href="mailto:jvshayan1@gmail.com" class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <span>jvshayan1@gmail.com</span>
+        </a>
+        <a href="tel:+919591797228" class="contact-card">
+          <i class="fas fa-phone"></i>
+          <span>+91-9591797228</span>
+        </a>
+        <a href="https://linkedin.com/in/shayanjv/" target="_blank" class="contact-card">
+          <i class="fab fa-linkedin-in"></i>
+          <span>linkedin.com/in/shayanjv</span>
+        </a>
+        <a href="https://github.com/Shayanjv" target="_blank" class="contact-card">
+          <i class="fab fa-github"></i>
+          <span>github.com/Shayanjv</span>
+        </a>
+      </div>
+      <a href="mailto:jvshayan1@gmail.com" class="btn btn-primary btn-lg reveal">
+        <i class="fas fa-paper-plane"></i> Say Hello
+      </a>
+    </div>
+  </section>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-logo">
+          <span class="logo-bracket">&lt;</span>Shayana<span class="logo-dot">.</span>dev<span
+            class="logo-bracket">/&gt;</span>
+        </p>
+        <div class="footer-socials">
+          <a href="https://github.com/Shayanjv" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/shayanjv/" target="_blank" aria-label="LinkedIn"><i
+              class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:jvshayan1@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Shayana J V.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
